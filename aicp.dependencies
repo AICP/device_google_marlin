@@ -13,5 +13,20 @@
     "repository": "TheMuppets/proprietary_vendor_google",
     "target_path": "vendor/google",
     "branch":       "cm-14.1"
+  },
+  {
+    "repository": "opengapps/aosp_build",
+    "target_path": "vendor/google/build",
+    "branch":      "master"
+  },
+  {
+    "repository": "opengapps/all",
+    "target_path": "vendor/opengapps/sources/all",
+    "branch":      "master"
+  },
+  {
+    "repository": "opengapps/arm64",
+    "target_path": "vendor/opengapps/sources/arm64",
+    "branch":      "master"
   }
 ]
