@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common"
+    "branch":       "cm-14.1"
+  },
+  {
+    "repository": "LineageOS/android_kernel_google_marlin",
+    "target_path": "kernel/google/marlin"
+    "branch":       "cm-14.1"
+  },
+  {
+    "repository": "TheMuppets/proprietary_vendor_google",
+    "target_path": "vendor/google"
+    "branch":       "cm-14.1"
+  }
+]
