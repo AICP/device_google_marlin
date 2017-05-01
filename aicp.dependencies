@@ -13,5 +13,10 @@
     "repository": "TheMuppets/proprietary_vendor_google",
     "target_path": "vendor/google",
     "branch":       "cm-14.1"
+  },
+  {
+    "repository": "DirtyUnicorns/android_vendor_pixelgapps",
+    "target_path": "vendor/pixelgapps",
+    "branch":       "n7x"
   }
 ]
