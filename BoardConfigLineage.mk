@@ -7,7 +7,8 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 WITH_DEXPREOPT := false
 
 # Kernel
-BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+BOARD_KERNEL_IMAGE_NAME := Image.lz4-dtb
+TARGET_KERNEL_ARCH := arm64
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_CONFIG := lineageos_marlin_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/marlin
