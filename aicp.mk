@@ -17,6 +17,10 @@ PRODUCT_MODEL := Pixel XL
 TARGET_MANUFACTURER := HTC
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Davor B (LorD ClockaN), doc HD (semdoc)"
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=marlin \
     BUILD_FINGERPRINT=google/marlin/marlin:8.1.0/OPM1.171019.011/4448085:user/release-keys \
