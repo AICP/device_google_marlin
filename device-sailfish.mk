@@ -60,7 +60,7 @@ PRODUCT_COPY_FILES += \
 
 # Led packages
 PRODUCT_PACKAGES += \
-    lights.sailfish
+    lights.sailfish_sys
 
 # VR packages
 PRODUCT_PACKAGES += \

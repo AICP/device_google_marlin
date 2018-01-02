@@ -60,7 +60,7 @@ PRODUCT_COPY_FILES += \
 
 # Led packages
 PRODUCT_PACKAGES += \
-    lights.marlin
+    lights.marlin_sys
 
 # VR packages
 PRODUCT_PACKAGES += \

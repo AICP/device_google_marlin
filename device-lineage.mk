@@ -5,6 +5,9 @@ PRODUCT_PACKAGES += libion
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager
 
+# Lights
+PRODUCT_PROPERTY_OVERRIDES += ro.hardware.lights=marlin_sys
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-lineage
 
