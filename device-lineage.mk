@@ -3,7 +3,8 @@ PRODUCT_PACKAGES += libion
 
 # IMS
 PRODUCT_PACKAGES += \
-    com.android.ims.rcsmanager
+    com.android.ims.rcsmanager \
+    RcsService
 
 # Lights
 PRODUCT_PROPERTY_OVERRIDES += ro.hardware.lights=marlin_sys
