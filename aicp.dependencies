@@ -2,7 +2,7 @@
   {
     "repository": "LineageOS/android_device_qcom_common",
     "target_path":"device/qcom/common",
-    "branch":     "staging/lineage-15.1"
+    "branch":     "lineage-15.1"
   },
   {
     "repository": "AICP/kernel_google_marlin",
