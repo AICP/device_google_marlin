@@ -3,14 +3,16 @@
 # Product-specific compile-time definitions
 #
 
-# Allow Lineage config to override others
--include device/google/marlin/sailfish/BoardConfigLineage.mk
+# Allow Aicp config to override others
+-include device/google/marlin/sailfish/BoardConfigAicp.mk
 
 TARGET_BOARD_PLATFORM := msm8996
 TARGET_BOOTLOADER_BOARD_NAME := sailfish
 TARGET_BOARD_INFO_FILE := device/google/marlin/sailfish/board-info.txt
 
 TARGET_USES_INTERACTION_BOOST := true
+
+SELINUX_IGNORE_NEVERALLOWS := true
 
 TARGET_USES_AOSP := true
 TARGET_ARCH := arm64
@@ -99,7 +101,7 @@ BOARD_ROOT_EXTRA_FOLDERS := firmware firmware/radio persist
 BOARD_ROOT_EXTRA_SYMLINKS := /vendor/lib/dsp:/dsp
 
 BOARD_SEPOLICY_DIRS += device/google/marlin/sepolicy
-ifneq ($(filter lineage_sailfish sailfish sailfishf, $(TARGET_PRODUCT)),)
+ifneq ($(filter aicp_sailfish sailfish sailfishf, $(TARGET_PRODUCT)),)
 BOARD_SEPOLICY_DIRS += device/google/marlin/sepolicy/verizon
 endif
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR := device/google/marlin/sepolicy/private
